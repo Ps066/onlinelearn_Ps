@@ -60,14 +60,14 @@
                     <div class="form-check">
                         {% if choice.id in selected_ids %}
                             {% if choice.is_correct == True %}
-                                <label style="color:#2ea94a;font-weight:bold">Correct answer: {{choice.choice_text}}</label>
+                                <label style="color:#2ea94a;font-weight:bold">Correct answer: {{choice.text}}</label>
                             {% else %}
-                                <label style="color:red;font-weight:bold">Wrong answer: {{choice.choice_text}}</label>
+                                <label style="color:red;font-weight:bold">Wrong answer: {{choice.text}}</label>
                             {% endif %}
                         {% elif choice.id not in selected_ids and choice.is_correct == True %}
-                            <label style="color:#ffa500;font-weight:bold">Not Selected: {{choice.choice_text}}</label>
+                            <label style="color:#ffa500;font-weight:bold">Not Selected: {{choice.text}}</label>
                         {% else %}
-                            <label>{{choice.choice_text}}</label>
+                            <label>{{choice.text}}</label>
                         {% endif %}
                     </div>
                     {% endfor %}
