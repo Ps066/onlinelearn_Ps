@@ -4,7 +4,33 @@
     {% load static %}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta charset="UTF-8">
-    <title>Online Courses</title>
+    <title>Online learn</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+        .footer{
+            background-color: #00ffcc;
+            border-radius:5px;
+            margin:50px;
+            padding-left: 20px;
+            padding-top:20px;
+            padding-bottom:20px;
+  
+  
+        }
+        #head{
+            font-family: 'Staatliches', cursive;
+        }
+        .icons{
+  
+            
+            padding:20px;
+            margin:20px;
+        }
+        #licence{
+            color:black;
+        }
+
+    </style>
 </head>
 <body>
     <!-- Navigation bar -->
@@ -61,5 +87,19 @@
     {% else %}
         <p>No courses are available.</p>
     {% endif %}
+    <div class="footer">
+    
+        <h1 id="head">OnlineLearn</h1>
+        
+        
+        
+        <a href="https://github.com/Ps066/onlinelearn_Ps/blob/main/LICENSE" id="licence"> Copyright 2022 Prashant Shukla</a>
+        <div class="icons">
+            <a href="https://github.com/Ps066">
+                <img align="right" alt="GitHub" width="30px" src="https://github.com/Ps066/onlinelearn_Ps/blob/main/static/media/course_images/pngwing.com.png?raw=true" /></a></div>
+        
+        
+        
+      </div>
 </body>
 </html>
