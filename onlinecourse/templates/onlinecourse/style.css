@@ -1,0 +1,25 @@
+.footer{
+  background-color: #00ffcc;
+  border-radius:5px;
+  margin:25px;
+  padding-left: 20px;
+  padding-top:2px;
+  padding-bottom:40px;
+  
+  
+}
+#head{
+  font-family: 'Staatliches', cursive;
+}
+.icons{
+  
+  position: absolute;
+  right: 0px;
+  bottom:300px;
+  width: 50px;
+  padding:20px;
+  margin:20px;
+}
+#licence{
+  color:black;
+}
